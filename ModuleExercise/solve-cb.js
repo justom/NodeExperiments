@@ -4,7 +4,6 @@ function printRectInfo(l,b) {
     console.log("Printing info for rectangle of dim. (" + l + "," + b + ")");
     rect(l,b, function(err, rectangle) {
         if (err) {
-            console.log("This should be fine, right?");
             console.log(err);
         }
         else {
